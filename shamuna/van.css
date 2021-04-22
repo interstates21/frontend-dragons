@@ -12,7 +12,8 @@ body{
    
   
     text-align: left;
-    padding-top: 47px;
+    padding-top: 30px;
+    margin-left: 50px;
 }
 
 a{
@@ -20,14 +21,15 @@ a{
     text-decoration: none;
     margin-right: 90px;
 }
-.container{
-    width:300%;
+.big-container{
+    width: 1914px;
     height: 418px;
     padding-top: 176px;
     display:flex;
     justify-content: space-between;
     align-items: center;
     overflow-x: scroll;
+    overflow-y: hidden;
    
 }
 .container::-webkit-scrollbar
@@ -38,9 +40,11 @@ a{
 .small-container{
     display:flex;
     justify-content: space-between;
-    width:10000px;
+    width:51822px;
     height: 300px;
     align-items: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
     
 }
 
