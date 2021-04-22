@@ -14,58 +14,58 @@ body{
     text-align: left;
     padding-top: 30px;
     margin-left: 50px;
+    
 }
 
 a{
     display: inline;
     text-decoration: none;
     margin-right: 90px;
+    color:black;
 }
 .big-container{
-    width: 1914px;
+    width: auto;
     height: 418px;
-    padding-top: 176px;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
+    padding-top: 138px;
+    display: flex;
+    justify-content: flex-start;
     overflow-x: scroll;
     overflow-y: hidden;
-   
 }
-.container::-webkit-scrollbar
+
+   
+   
+
+.big-container::-webkit-scrollbar
 {
     width:0px;
 }
 
-.small-container{
-    display:flex;
-    justify-content: space-between;
-    width:51822px;
-    height: 300px;
-    align-items: center;
-    overflow-y: hidden;
-    overflow-x: hidden;
-    
-}
+
 
 
 .one,.two,.three,.four,.five,.six{
-    width: 348px;
-    height: 378px;
-    margin-right: 20px;
-   
+    width: 311px;
+    height: 390px;
+    margin-right: 258px;
 }
-.one,.six{
+ .six {
     text-align: center;
-    padding-left: 20px;
-    padding-top: 133px;
+    padding-left: 10px;
+    padding-top: 90px;
+}
+.one{
+    text-align: center;
+    padding-left: 102px;
+    padding-top: 90px;
 }
 
 
 
-img{
-    width:100%;
-    height: 100%;
-    padding-left: 0px;
-    border-radius: 12px;
-}
+    img {
+        width: 312px;
+        height: 100%;
+        padding-left: 0px;
+        border-radius: 12px;
+        padding-right: 0px
+    }
