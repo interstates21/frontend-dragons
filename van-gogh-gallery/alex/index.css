@@ -19,8 +19,7 @@ body {
     padding-left: 5%;
     padding-right: 5%;
     font-family: 'Noto Sans JP', sans-serif;
-    box-sizing: border-box;
-    
+    background-color:#DACC98;
 }
 
 header {
@@ -72,6 +71,7 @@ header nav {
     transition: background-size 0.2s ease;
     cursor: pointer;
     overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 }
 
 .card:hover {
@@ -98,7 +98,7 @@ header nav {
 .card-title {
     font-size: 35px;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 6px;
     color: white;
 }
 
