@@ -35,14 +35,13 @@ header {
     background-color:#DACC98;
 }
 header nav {
-    display: flex;
-    
+    display: flex; 
 }
-
 
 #scrollable-page {
     padding-left: 5%;
     padding-right: 5%;
+    box-sizing: border-box;      /* prevent padding from adding extra width */
     padding-top: 140px;
     overflow-x: auto;
     display: flex;
@@ -51,6 +50,8 @@ header nav {
 
 .nav-tab {
     margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     cursor: pointer;
     transition: all 0.2s;
 }
@@ -148,3 +149,26 @@ header nav {
     border-radius: 2px;
     line-height: 14px;
 }
+
+
+
+/* Specify styles for mobile */
+@media only screen and (max-width: 600px) {
+    #scrollable-page {
+        width: 100vw;
+        overflow-x: hidden;
+        flex-direction: column;
+        overflow-y: auto;
+        align-items: center;
+    }
+    header {
+        flex-direction: column;
+        align-items: flex-end;
+        height: auto;
+        padding-bottom: 10px;
+    }
+    
+    nav {
+        flex-wrap: wrap;
+    }
+  }
