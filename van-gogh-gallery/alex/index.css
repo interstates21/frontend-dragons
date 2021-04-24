@@ -31,7 +31,7 @@ header {
     /*justify-content: flex-start;*/
     justify-content: space-between;
     align-items: flex-start;
-    background-color: white;
+    background-color:#DACC98;
 }
 header nav {
     display: flex;
@@ -81,6 +81,7 @@ header nav {
 .first-card {
     width: 40vw;
     justify-content: center;
+    box-shadow: none;
 }
 
 .title-regular {
