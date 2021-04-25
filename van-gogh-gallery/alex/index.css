@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 /* Remove default style for elements  */
 * {
     margin: 0px;
@@ -76,6 +76,8 @@ header nav {
     cursor: pointer;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    font-family: 'Josefin Sans', sans-serif;
+    /* font-family: monospace !important; */
 }
 
 .card:hover {
