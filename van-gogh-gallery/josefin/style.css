@@ -1,0 +1,258 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-container{
+    position: absolute;
+   
+    margin-left: 0px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 20px;
+font-weight: bolder;
+justify-content: space-evenly;
+}
+
+li{
+    display: inline-block;
+
+}
+li a{
+  text-decoration: none; 
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter ;
+  font-size: 22px;
+  padding: 0 20px;
+  padding-left: 40px;
+  font-weight: 900;
+}
+
+.nav-link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height:  2px;
+    background: black;
+    transition: width .3s 
+}
+
+.nav-link :hover::after {
+width: 100%;
+transition: width .3s
+}
+
+input, button, submit { border:none; background: none; } 
+
+a {
+    background-color: none;
+    text-decoration: none;
+    color: inherit;
+
+}
+li{
+    list-style: none;
+transition: all 0,4s;
+}
+
+li:hover{
+text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color:#DACC98;
+}
+
+header {
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;     
+    width: 100%;
+    padding-top: 60px;
+    height: 90px;
+    display: flex;
+    position: fixed;
+    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color:#DACC98;
+    
+    
+}
+
+
+header nav {
+    display: flex; 
+}
+
+#scrollable-container {
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;     
+    padding-top: 140px;
+    overflow-x: auto;
+    display: flex;
+    width: max-content;
+    
+}
+
+
+
+
+.card {
+    width: 350px;
+    height: 650px;
+    margin-right: 60px;
+    margin-top: 60px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+    border-radius: 15px;
+    background-position: center;
+    background-size: 300%;
+    transition: background-size 0.2s ease;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    background-size: 315%;
+}
+
+.first-card {
+    width: 50vw;
+    justify-content: center;
+    box-shadow: none;
+}
+.first-card h2{
+    font-size: 80px;
+    margin-top: 25%;
+    padding-bottom: 30px;
+
+}
+.first-card p{
+font-size: 23px;
+line-height: 1,5;
+}
+
+
+.last-card{
+    width: 20vw;
+    margin-top: 300px;
+    margin-left: 200px;
+    margin-right: 500px;
+    
+}
+.last-card h2{
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+}
+.last-card ul{
+    font-size: 15px;
+    font-weight: bolder;
+    line-height: 2;
+    }
+
+.last-card a{
+    font-size: 25px;
+    
+}
+.last-card :hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.title-regular {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.paragraph-regular {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+
+.card-title {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 6px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.card-text {
+    font-size: 20px;
+    font-weight:  400;
+    color: white;
+}
+
+.card-image {
+    width: 100%;
+}
+
+button {
+    font-size: 22px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+    color: white;
+    font-weight: bolder;
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
+
+.card-visible-outline {
+    width: 100%;
+    padding: 30px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+
+#van-gogh-logo {
+    justify-self: flex-end;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    #scrollable-page {
+        width: 100vw;
+        overflow-x: hidden;
+        flex-direction: column;
+        overflow-y: auto;
+        align-items: center;
+     
+    }
+    header {
+        flex-direction: column;
+        align-items: flex-end;
+        height: auto;
+        padding-bottom: 10px;
+     
+    }
+    
+    nav {
+        flex-wrap: wrap;
+    }
+    .card {
+        margin-bottom: 30px;
+    }
