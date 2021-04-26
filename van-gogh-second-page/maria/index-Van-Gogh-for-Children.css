@@ -1,0 +1,220 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+input, button, submit { border:none; background: none; } 
+
+a {
+    background-color: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Styles */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #FBAE17;
+   
+}
+.everything-container
+{
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 2000px;
+    
+
+}
+
+header {
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;      /* prevent padding from adding extra width */
+    width: 100%;
+    padding-top: 40px;
+    height: 80px;
+    display: flex;
+    /* position: fixed; */
+    /* justify-content: flex-start; */
+    justify-content: space-between;
+    align-items: flex-start;
+    /* background-color:#DACC98; */
+}
+header nav {
+    display: flex; 
+}
+
+.title
+{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+h1
+{
+    font-size: 80px;
+    font-weight: 500;
+}
+.title-description
+{
+    padding-top: 3%;
+}
+.navigation
+{
+    display: flex;
+    padding-left: 5%;
+    padding-right: 10%;
+    padding-top: 5%;
+    justify-content: space-between;
+}
+.navigation-item
+{
+    font-weight: 550;
+}
+hr {
+    background-color: black;
+    height: 2px;
+    padding-left: 5%;
+    padding-right: 10%;
+    margin-top: 1%;
+    opacity: 20%;
+}
+.container
+{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%; 
+    }
+.container-of-cards
+{
+    /* background-color: lawngreen; */
+    display: flex;
+    padding-top: 3%;
+    justify-content: space-between;
+    height: 40vh;
+}
+.card
+{
+     /* background-color: lightcoral; */
+     width: 33%;
+     height: 100%;
+     margin-right: 60px;
+     display: flex;
+     align-items: flex-start;
+     /* justify-content: flex-end; */
+     flex-direction: column;
+     border-radius: 10px;
+     background-position: center;
+     background-size: 300%;
+     transition: background-size 0.2s ease;
+     cursor: pointer;
+     overflow: hidden;
+     /* box-shadow: 0px 0px 10px rgba(0,0,0,0.1); */
+     font-family: 'Josefin Sans', sans-serif;
+     /* font-family: monospace !important; */    
+}
+.picture
+{
+       overflow: hidden;
+}
+.picture:hover {
+    size: 350%;
+}
+.picture {
+    transition: 1s; /* Время эффекта */
+   }
+   .picture:hover {
+    transform: scale(1.1); /* Увеличиваем масштаб */
+   }
+
+.hide {
+   visibility: hidden;
+   width: 33%;
+   height: 100%;
+     margin-right: 60px;
+     display: flex;
+     align-items: flex-start;
+     justify-content: flex-end;
+     flex-direction: column;
+     border-radius: 10px;
+     background-position: center;
+     background-size: 300%;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 500;
+}
+.note
+{
+    opacity: 50%;
+    padding-top: 25px;
+}
+h3 {
+    font-size: 25px;
+    font-weight: 500;
+    padding-top: 2%; 
+}
+.card-description
+{
+    padding-top: 2%; 
+}
+footer
+{
+    margin-top: 80px;
+}
+
+.nav-tab {
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.nav-tab:hover {
+    text-decoration: underline;
+}
+
+
+#van-gogh-logo {
+    justify-self: flex-end;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+    text-align: right;
+    border-radius: 2px;
+    line-height: 18px;
+}
+
+
+
+/* Specify styles for mobile */
+@media only screen and (max-width: 600px) {
+    #scrollable-page {
+        width: 100vw;
+        overflow-x: hidden;
+        flex-direction: column;
+        overflow-y: auto;
+        align-items: center;
+    }
+    header {
+        flex-direction: column;
+        align-items: flex-end;
+        height: auto;
+        padding-bottom: 10px;
+    }
+    
+    nav {
+        flex-wrap: wrap;
+    }
+    .card {
+        margin-bottom: 30px;
+    }
+  }
