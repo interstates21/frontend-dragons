@@ -112,7 +112,6 @@ header nav {
 
 
 .card {
-    /* background-color: yellow; */
     width: 350px;
     height: 650px;
     margin-right: 60px;
@@ -233,8 +232,6 @@ button:hover {
     justify-self: flex-end;
     padding: 10px;
 }
-
-
 
 @media only screen and (max-width: 600px) {
     #scrollable-page {
