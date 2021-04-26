@@ -99,7 +99,7 @@ header {
 
 
 .container {
-    margin: 50px 24% 0 24%;
+    margin: 100px 24% 80px 24%;
     /*
     Same as this:
     margin-top: 50px;
@@ -166,8 +166,8 @@ header {
 .additional-note {
     margin-bottom: 6px;
     opacity: 0.5;
-    font-family: monospace;
+    font-family: 'Roboto', serif;
     /* Set less intense color */
-    font-size: 0.3em; 
-    /* 60px * 30% */
+    font-size: 0.2em; 
+    /* 60px * 20% */
 }
