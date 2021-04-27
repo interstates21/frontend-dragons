@@ -57,8 +57,23 @@ a{
     text-decoration:underline;
 
 }
-.container-part:hover{
-   background-color: aquamarine;
+.container .container-part:hover img{
+
+  transform:scale(1.2);
     
+}
+h4::after{
+    content:""
+}
+.container .container-part:hover i{
+    padding-left: 50px;
+
+}
+.icon{
+    display:flex;
+}
+.icon i{
+    padding-top: 31px;
+    padding-left: 15px;
 }
 
