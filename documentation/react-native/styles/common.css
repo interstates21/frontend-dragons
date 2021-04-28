@@ -115,12 +115,13 @@ nav {
 
 .jumbotron-buttons {
     display: flex;
+    align-items: center;
 } 
 
 .button-contained {
     background-color: #62DAFB;
     color:#282D33;
-    margin-right: 20px;
+    margin-right: 30px;
     font-size: 20px;
     border-radius: 2px;
     padding: 12px;
@@ -136,7 +137,10 @@ nav {
     font-size: 20px;
     transition: color 0.3s;
     cursor: pointer;
-    font-weight: 300;
+
+
+    position: relative;
+    top: 3px;
 } 
 
 .button-text:hover {
