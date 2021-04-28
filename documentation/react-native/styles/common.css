@@ -1,0 +1,211 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700&display=swap');
+
+/* Remove default style for elements  */
+* {
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+}
+
+input, button, submit { border:none; background: none; } 
+
+a {
+    background-color: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Styles */
+
+
+/* header */
+header {
+    height: 80px;
+    background-color: #303846;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 3%;
+    /*same as  padding-left: 3%;
+    padding-right: 3%; */
+
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 4px;
+}
+
+.nav-item {
+    font-weight: 300;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.nav-item:hover {
+    color: rgb(98,218,251);
+}
+
+.react-native-logo-title {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.logo-img {
+    width: 30px;
+    margin-right: 10px;
+
+
+    position: relative;
+    bottom: 1px;
+    /* trick: move the icon one px to top in order to center */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.github-img {
+    width: 30px;
+    opacity: 0.8;
+    margin-left: 15px;
+
+    position: relative;
+    top: 1px;
+    /* trick: move the icon one px to bottom in order to center */
+}
+
+.github-img:hover {
+    /* make the icon a bit brigher on hover */
+    opacity: 1;
+}
+
+
+/* jumbotron */
+.jumbotron {
+    background-color: #282D33;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jumbotron-title {
+    font-size: 80px;
+    color: #62DAFB;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.jumbotron-subtitle {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.jumbotron-buttons {
+    display: flex;
+} 
+
+.button-contained {
+    background-color: #62DAFB;
+    color:#282D33;
+    margin-right: 20px;
+    font-size: 20px;
+    border-radius: 2px;
+    padding: 12px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+} 
+.button-contained:hover {
+    background-color: white;
+}
+
+.button-text {
+    color: #62DAFB;
+    font-size: 20px;
+    transition: color 0.3s;
+    cursor: pointer;
+    font-weight: 300;
+} 
+
+.button-text:hover {
+    color: white;
+}
+
+.demo-img {
+    height: 100%
+}
+
+
+.jumbotron-left {
+    margin-right: 40px;
+}
+
+.jumbotron-right {
+    height: 100%;
+}
+
+.social-buttons-container {
+    padding-top: 36px;
+    width: 100%;
+    display: flex;
+    padding-right: 30px;
+    box-sizing: border-box;
+    justify-content: flex-end;
+    background-color: #282D33;
+    padding-right: 50px !important;
+}
+
+
+/* common for two buttons */
+.social-button {
+    padding: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.social-button:hover {
+    opacity: 0.8;
+}
+.twitter-button {
+    background-color: #1B95E0;
+    color: white;
+    width: 160px;
+    margin-right: 8px;
+}
+
+.star-button {
+    background-color: snow;
+    color: rgba(0, 0, 0, 0.7);
+    /* Almost black */
+    width: 60px;
+}
+
+
+/* footer */
+
+body {
+    background-color: #303846;
+}
+footer {
+    background-color: #303846;
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: rgba(255,255,255, 0.8);
+    padding-bottom: 20px;
+}
