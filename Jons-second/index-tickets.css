@@ -22,40 +22,47 @@ body {
 }
 
 header {
-    padding-left: 5%;
-    padding-right: 5%;
-    box-sizing: border-box;      /* prevent padding from adding extra width */
-    width: 100%;
+    box-sizing: border-box;
     padding-top: 40px;
-    height: 80px;
     display: flex;
     justify-content: flex-start;
-    justify-content: space-between;
     align-items: flex-start;
-    background-color:#FFCE01;
+    background-color: #FFCE01;
+    margin: 0px 55px 10px 55px;
 
 }
 header nav {
-    display: flex; 
+    display: flex;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    flex-flow: row wrap;
+    justify-content: flex-start;
 }
 
 .tickets-wrapper {
-    margin: 100px 50px 30px 5%;
-    width: 1300px;
-    
-    
+    margin: 50px 85px 0px 85px;
 }
+
+h1 {
+    font-size: 3.5rem;
+}
+
 .right {
     display: flex;
     justify-content: flex-end;
 }
 
+.contact-wrapper {
+    display: flex;
+    justify-items: flex-start;
+    flex-flow: wrap;
+
+}
+
 .link-wrapper {
-    width: 800px;
-    margin: 0 0 0 100px;
-  
+    margin: 0;
 }
 
 .h1 {
@@ -68,27 +75,25 @@ li {
     color: black;
     font-size: 36px;
     list-style-type: none;
+    margin: 10px 0 30px 0;
+}
+li:hover{
+    text-decoration: underline;
+}
+.contact-wrapper li {
+    font-size: 16px;
+    margin: 0 30px 10px 0;
 }
 
 hr {
     border: 2px solid black;
+    padding:0;
     margin: 30px 0;
 }  
 
-#scrollable-page {
-    padding-left: 5%;
-    padding-right: 5%;
-    box-sizing: border-box;      /* prevent padding from adding extra width */
-    padding-top: 140px;
-    overflow-x: auto;
-    display: flex;
-    width:800px;
-}
-
 .nav-tab {
-    margin-right: 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px 0;
+    padding: 0px 30px;
     cursor: pointer;
     transition: all 0.2s;
 }
@@ -96,7 +101,6 @@ hr {
 .nav-tab:hover {
     text-decoration: underline;
 }
-
 
 .title-regular {
     font-size: 40px;
@@ -109,6 +113,10 @@ hr {
     font-weight: 100;
 }
 
+/* Specify styles for mobile */
+@media only screen and (max-width: 835px) {
+    
+  }
 
 
 
