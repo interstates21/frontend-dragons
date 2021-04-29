@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+/* Remove default style for elements  */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+input, button, submit { border:none; background: none; } 
+
+a {
+    background-color: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Styles */
+body {
+    background-color:#FFCE01;
+}
+
+header {
+    box-sizing: border-box;
+    padding-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #FFCE01;
+    margin: 0px 55px 10px 55px;
+
+}
+header nav {
+    display: flex;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.tickets-wrapper {
+    margin: 50px 85px 0px 85px;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact-wrapper {
+    display: flex;
+    justify-items: flex-start;
+    flex-flow: wrap;
+
+}
+
+.link-wrapper {
+    margin: 0;
+}
+
+.h1 {
+    color:black;
+    position:static;
+    font-size:52px;
+}
+
+li {
+    color: black;
+    font-size: 36px;
+    list-style-type: none;
+    margin: 10px 0 30px 0;
+}
+li:hover{
+    text-decoration: underline;
+}
+.contact-wrapper li {
+    font-size: 16px;
+    margin: 0 30px 10px 0;
+}
+
+hr {
+    border: 2px solid black;
+    padding:0;
+    margin: 30px 0;
+}  
+
+.nav-tab {
+    margin: 10px 0;
+    padding: 0px 30px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.nav-tab:hover {
+    text-decoration: underline;
+}
+
+.title-regular {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.paragraph-regular {
+    font-size: 25px;
+    font-weight: 100;
+}
+
+/* Specify styles for mobile */
+@media only screen and (max-width: 835px) {
+    
+  }
+
+
+
+
+
