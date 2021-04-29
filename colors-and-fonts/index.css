@@ -61,7 +61,16 @@ body {
     flex-direction: column;
 }
 
+ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 25px;
+  }
 
+  ul :hover{
+      opacity: 50%;
+  }
+  
 /* Generic classes we can use it multiple times */
 .highlight {
     background-color: yellow;
@@ -96,7 +105,6 @@ header {
     font-family: FrackleFace;
     font-size: 30px;
 }
-
 
 .container {
     margin: 50px 24% 0 24%;
