@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 /* Remove default style for elements  */
 * {
@@ -50,7 +48,7 @@ h1 {
     font-size: 3.5rem;
 }
 
-.right {
+.rightside-div {
     display: flex;
     justify-content: flex-end;
 }
@@ -59,11 +57,11 @@ h1 {
     display: flex;
     justify-items: flex-start;
     flex-flow: wrap;
-
 }
 
 .link-wrapper {
     margin: 0;
+    cursor: pointer;
 }
 
 .h1 {
