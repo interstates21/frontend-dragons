@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 
 *{
@@ -12,7 +12,16 @@
     text-decoration: none;
 }
 
+li{
+    color:  rgb(115, 150, 226);
+    list-style-type: none;
+}
 
+a {
+    background-color: none;
+    text-decoration: none;
+    color: inherit;
+}
 header {
     background-color: rgb(164, 204, 255);
     height: 70px;
@@ -27,8 +36,8 @@ header {
 
     font-family: 'Indie Flower', cursive;
     font-size: 40px;
-    text-decoration: none;
 }
+
 
 
 .navbar{
@@ -45,22 +54,15 @@ header {
       opacity: 50%;
   }
 
- li{
-     color:  rgb(115, 150, 226);
-     list-style-type: none;
- }
 
   .navbar-arrow{
 font-size: 15px;  
 color: rgb(115, 150, 226);
 margin-left: 10px;
 }
-
-
-a {
-    background-color: none;
-    text-decoration: none;
-    color: inherit;
+.navbar-text{
+    font-family: 'Pacifico', cursive;
+    padding-top: 10px;
 }
 
 
@@ -81,6 +83,7 @@ body {
     background-color: rgb(213, 237, 252);
     display: flex;
     flex-direction: column;
+
 }
  h1{
      font-size: 35px;
@@ -114,7 +117,7 @@ font-size: 14px;
 }
 
 
-.highlight {
+.highlight1 {
     background-color: rgb(252, 252, 164);
     padding: 2px;
     border-radius: 1px;
@@ -128,9 +131,12 @@ font-size: 14px;
     font-family: "Inconsolata", monospace;
 } 
 
-.larger{
+.larger-text{
     font-family: 'Comfortaa';
     font-weight: 600;
     font-size: 20px;
 }
 
+.section3{
+    line-height: 25px;
+}
