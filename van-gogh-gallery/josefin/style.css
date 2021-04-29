@@ -1,6 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&display=swap');
 * {
     margin: 0px;
     padding: 0px;
@@ -26,7 +25,7 @@ li{
 li a{
   text-decoration: none; 
   color: black;
-  font-family: 'Montserrat', sans-serif;; 
+  font-family: 'Montserrat', sans-serif;
   font-weight: lighter ;
   font-size: 22px;
   padding: 0 20px;
@@ -113,7 +112,6 @@ header nav {
 
 
 .card {
-    /* background-color: yellow; */
     width: 350px;
     height: 650px;
     margin-right: 60px;
@@ -148,7 +146,6 @@ header nav {
 }
 .first-card p{
 font-size: 23px;
-font-weight: bolder;
 line-height: 1,5;
 }
 
@@ -235,8 +232,6 @@ button:hover {
     justify-self: flex-end;
     padding: 10px;
 }
-
-
 
 @media only screen and (max-width: 600px) {
     #scrollable-page {
