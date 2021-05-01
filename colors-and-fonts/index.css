@@ -1,0 +1,190 @@
+/* Import ROBOTO font from google fonts website and include thin, regular and bold font-weights */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+/* import Van Gogh font from files with diffent font weights */
+@font-face {
+    font-family: GothamRounded;
+    src: url(./fonts/GothamRounded/GothamRounded-Light.otf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: GothamRounded;
+    src: url(./fonts/GothamRounded/GothamRounded-Book.otf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: GothamRounded;
+    src: url(./fonts/GothamRounded-Medium.otf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: GothamRounded;
+    src: url(./fonts/GothamRounded-Bold.otf);
+    font-weight: 700;
+}
+
+/* import Freckle Face */
+
+@font-face {
+    font-family: FrackleFace;
+    src: url(./fonts/Freckle_Face/FreckleFace-Regular.ttf);
+}
+
+
+/* Reset annoying default styling  */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+input, button, submit { border:none; background: none; } 
+
+a {
+    background-color: none;
+    text-decoration: none;
+    color: inherit;
+    margin-left: 50px;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+h2 {
+    margin-bottom: 14px;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: lavenderblush;
+    /* Right laylot of header and container */
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    list-style-type: none;
+    padding: 25px;
+    display: flex;
+    font-family: sans-serif;
+    font-size: 1rem;
+  }
+  
+  .nav-item {
+   font-size: 16px;
+   font-family: sans-serif;
+   margin: 5px;
+  }
+
+  .nav-item:hover{
+      opacity: 50%;
+  }
+  
+/* Generic classes we can use it multiple times */
+.highlight {
+    background-color: yellow;
+    padding: 2px;
+    border-radius: 1px;
+}
+
+#highligh-in-section2 {
+    /* overwrites yellow bg cause id selector is more priotized */
+    background-color: purple;
+    /* but html style attribute has event higher priority */
+}
+
+.italic {
+    font-style: italic;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: white;
+    height: 70px;
+    /* It's probably a good idea to have a header height in px */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 30px;
+    
+    width: 100vw;
+    position: fixed;
+    box-shadow: 0 6px 8px rgba(0,0,0, 0.05);
+
+    font-family: FrackleFace;
+    font-size: 30px;
+}
+
+.container {
+    margin: 50px 24% 0 24%;
+    /*
+    Same as this:
+    margin-top: 50px;
+    margin-left: 24%;
+    margin-right: 24%;
+    */
+    padding: 14px;
+    /* prevents expanding the container width with padding; padding goes inside*/
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: white;
+    /* center the container */
+    
+}
+
+
+.van-gogh-font-container {
+    font-family: GothamRounded;
+    font-size: 30px;
+}
+
+.van-gogh-font-container .title-primary {
+    font-weight: 700; 
+    /* bold */
+    font-size: 1.5em;
+    /* Multiple the parent font-size (30px) by 1.5 times */
+}
+.van-gogh-font-container  .text-primary {
+    font-weight: 400; 
+    /* normal */
+    font-size: 0.5em;
+    /* Multiple the parent font-size (30px) by 0.5 times */
+}
+
+
+.regular-font-container {
+    font-family: sans-serif;
+    line-height: 30px;
+}
+
+.regular-font-container .title-primary {
+    font-weight: bold;
+    /* same as 700 */
+    font-size: 2rem; 
+    /* ~32px cause the default browser font-size equals to 16px (it varies sometimes i.e on mobile devices) */
+}
+.regular-font-container .text-primary {
+    font-weight: normal;
+    /* same as 400 */
+    font-size: 1rem;
+    /* ~16px */
+}
+
+.section3 h2{
+    font-family: FrackleFace;
+    font-size: 60px;
+}
+.section3 p{
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.additional-note {
+    margin-bottom: 6px;
+    opacity: 0.5;
+    font-family: monospace;
+    /* Set less intense color */
+    font-size: 0.3em; 
+    /* 60px * 30% */
+}

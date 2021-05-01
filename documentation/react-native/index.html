@@ -1,146 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>React Native</title>
-    <link href="./styles/common.css" rel="stylesheet" />
-  </head>
-  <body>
-    <header>
-      <div class="logo">
-        <img class="logo-img" src="./assets//physics.svg" alt="React Logo" />
-        <h2 class="react-native-logo-title">React Native</h2>
-      </div>
-      <nav>
-        <div class="nav-item">Components</div>
-        <div class="nav-item">Docs</div>
-        <div class="nav-item">Api</div>
-        <div class="nav-item">Community</div>
-        <div class="nav-item">Blog</div>
-        <div class="nav-item">
-          <img class="github-img" src="./assets/github.svg" alt="Github Logo" />
-        </div>
-      </nav>
-    </header>
 
-    <main>
-      <div class="social-buttons-container">
-        <div class="social-button twitter-button">follow @reactnative</div>
-        <div class="social-button star-button">☆ Star</div>
-      </div>
-      <section class="jumbotron">
-        <!-- left -->
-        <div class="jumbotron-left">
-          <h1 class="jumbotron-title">React Native</h1>
-          <h4 class="jumbotron-subtitle">Learn once, write anywhere.</h4>
-          <div class="jumbotron-buttons">
-            <button class="button-contained">Get Started</button>
-            <button class="button-text">Learn Basics</button>
-          </div>
-        </div>
-        <!-- right -->
-        <div class="jumbotron-right">
-          <img src="./assets/demo-img.png" class="demo-img" />
-        </div>
-      </section>
-      <section class="create-native-apps"></section>
-
-
-
-
-
-      <section class="native-development">
-        <div class="native-development-article">
-          <h3>Written in JavaScript—rendered with native code</h3>
-          <br>
-          <p>React primitives render to native platform UI, 
-            meaning your app uses the same native platform APIs other apps do.</p>
-            <br>
-            <p>
-            <strong> Many platforms </strong>, one React. Create platform-specific versions of components 
-            so a single codebase can share code across platforms. 
-            With React Native, one team can maintain two platforms 
-            and share a common technology—React.</p>
-        </div>
-        <div class="native-development-code">
-          <code>
-            @import React from 'react'; <br>
-            @import {Text, View} from 'react-native'; <br>
-            @import {Header} from './Header'; <br>
-            @import {heading} from './Typography'; <br>
-             const WelcomeScreen = () =&gt; ( <br>
-               &lt;View&gt; <br>
-                &lt;Header title=&quot;Welcome to React Native&quot;/&gt; <br>
-              &lt;Text style={heading}&gt;Step One&lt;/Text&gt; <br>
-               &lt;Text&gt; <br>
-             Edit App.js to change this screen and turn it <br>
-              into your app. <br>
-              &lt;/Text&gt; &lt; <br>
-              &lt;Text style={heading}&gt;See Your Changes&lt;/Text&gt; <br>
-              &lt;Text&gt; <br>
-             Press Cmd + R inside the simulator to reload <br>
-             your app&amp;#8217;s code. <br>
-              &lt;/Text&gt; <br>
-              &lt;Text style={heading}&gt;Debug&lt;/Text&gt; <br>
-              &lt;Text&gt; Press Cmd + M or Shake your device to open the <br>
-               React Native Debug Menu. <br>
-               &lt;/Text&gt; <br>
-               &lt;Text style={heading}&gt;Learn&lt;/Text&gt; <br>
-               &lt;Text&gt; <br>
-            Read the docs to discover what to do next: <br>
-            &lt;/Text&gt; &lt;/View&gt; ); 
-          </code>
-
-          <!-- <code>
-            @import React from 'react';<br>
-            @import {Text, View} from 'react-native';<br>
-            @import {Header} from './Header';<br>
-            @import {heading} from './Typography';<b
-const WelcomeScreen = () => ( <br>
-  <View><br>
-    <Header title="Welcome to React Native"/> <br>
-    <Text style={heading}>Step One</Text> <br>
-    <Text> <br>
-      Edit App.js to change this screen and turn it
-      into your app. <br>
-    </Text> <br>
-    <Text style={heading}>See Your Changes</Text> <br>
-    <Text> <br>
-      Press Cmd + R inside the simulator to reload<br>
-      your app’s code.<br>
-    </Text> <br>
-    <Text style={heading}>Debug</Text> <br>
-    <Text> <br>
-      Press Cmd + M or Shake your device to open the <br>
-      React Native Debug Menu. <br>
-    </Text> <br>
-    <Text style={heading}>Learn</Text> <br>
-    <Text> <br>
-      Read the docs to discover what to do next: <br>
-    </Text> <br>
-   </View> <br>
-);
-  
-  </code> -->
-        </div>
-
-
-
-
-
-
-      </section>
-      <section class="seamless-cross"></section>
-      <section class="fast-refresh"></section>
-      <section class="facebook-supported"></section>
-      <section class="give-it-a-try"></section>
-      <footer>Copyright © 2021 Pain, Inc.</footer>
-    </main>
-    <!-- <script>
-      function getRandomInt(max) {
-        return Math.floor(Math.random() * max);
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>React Native</title>
+  <link href="./styles/common.css" rel="stylesheet" />
+  <link href="./styles/talks.css" rel="stylesheet">
+  <link href="./styles/jonas.css" rel="stylesheet">
+  <script>
+    function getRandomInt(max) {
+      return Math.floor(Math.random() * max);
+    }
     window.setTimeout(() => {
       if (typeof window === 'undefined') {
         return;
@@ -154,8 +25,214 @@ const WelcomeScreen = () => ( <br>
         document.body.appendChild(dev);
         nSec++;
       }, 1000);
-
     }, 5000)
-    </script> -->
-  </body>
+  </script>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img class="logo-img" src="./assets//physics.svg" alt="React Logo" />
+      <h2 class="react-native-logo-title">React Native</h2>
+    </div>
+    <nav>
+      <div class="nav-item">Components</div>
+      <div class="nav-item">Docs</div>
+      <div class="nav-item">Api</div>
+      <div class="nav-item">Community</div>
+      <div class="nav-item">Blog</div>
+      <div class="nav-item">
+        <img class="github-img" src="./assets/github.svg" alt="Github Logo" />
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="social-buttons-container">
+      <div class="social-button twitter-button">follow @reactnative</div>
+      <div class="social-button star-button">☆ Star</div>
+    </div>
+    <section class="jumbotron">
+      <!-- left -->
+      <div class="jumbotron-left">
+        <h1 class="jumbotron-title">React Native</h1>
+        <h4 class="jumbotron-subtitle">Learn once, write anywhere.</h4>
+        <div class="jumbotron-buttons">
+          <button class="button-contained">Get Started</button>
+          <button class="button-text">Learn Basics</button>
+        </div>
+      </div>
+      <!-- right -->
+      <div class="jumbotron-right">
+        <img src="./assets/demo-img.png" class="demo-img" />
+      </div>
+    </section>
+    <section class="create-native-apps"></section>
+    <section class="native-development"></section>
+    <!-- Jonas -->
+    <section class="seamless-cross">
+      <div class="text-container">
+
+        <div class="headline-and-text">
+          <h1>Seamless Cross-Platform</h1>
+          <p>React components wrap existing native code and interact with native APIs via React’s declarative UI
+            paradigm and JavaScript. This enables native app development for whole new teams of developers, and can let
+            existing
+            native teams work much faster.</p>
+        </div>
+      </div>
+      <div class="tree-diagram-container">
+
+        <div class="app-js">
+          <button>App.js</button>
+        </div>
+
+        <div class="android-ios">
+          <div class="additional-border">
+
+            <div class="android-button">
+              <button>Header.android.js</button>
+            </div>
+
+            <div class="ios-button">
+              <button>Header.ios.js</button>
+            </div>
+          </div>
+
+          <div class="naming-is-hard">
+            <button>Image</button>
+            <button>Text</button>
+          </div>
+        </div>
+
+        <div class="naming-is-really-hard">
+          <div class="body-js">
+            <button>Body.js</button>
+          </div>
+
+          <div class="text">
+            <button>Text</button>
+            <button>Text</button>
+            <button>Text</button>
+            <button>Text</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="fast-refresh"></section>
+    <section class="facebook-supported"></section>
+
+    <section class="Talks">
+      <div class="talk-container-left">
+        <h1 class="h1-Talks">Talks</h1>
+
+        <p class="p-talks-section1">Members of the React Native
+          team frequently speak at various
+          conferences.</p>
+
+        <p class="p-talks-section2">
+          You can follow the latest news<br>
+          from the React Native team on <br>Twitter</p>
+        <div class="social-button twitter-button">Follow @reactnative</div>
+      </div>
+
+      <div class="talk-container-right">
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/NCAY0HIfrwc" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+
+
+    </section>
+    <section class="native-development">
+      <div class="native-development-article">
+        <h3>Written in JavaScript—rendered with native code</h3>
+        <br>
+        <p>React primitives render to native platform UI,
+          meaning your app uses the same native platform APIs other apps do.</p>
+        <br>
+        <p>
+          <strong> Many platforms </strong>, one React. Create platform-specific versions of components
+          so a single codebase can share code across platforms.
+          With React Native, one team can maintain two platforms
+          and share a common technology—React.
+        </p>
+      </div>
+      <div class="native-development-code">
+        <code>
+        @import React from 'react'; <br>
+        @import {Text, View} from 'react-native'; <br>
+        @import {Header} from './Header'; <br>
+        @import {heading} from './Typography'; <br>
+         const WelcomeScreen = () =&gt; ( <br>
+           &lt;View&gt; <br>
+            &lt;Header title=&quot;Welcome to React Native&quot;/&gt; <br>
+          &lt;Text style={heading}&gt;Step One&lt;/Text&gt; <br>
+           &lt;Text&gt; <br>
+         Edit App.js to change this screen and turn it <br>
+          into your app. <br>
+          &lt;/Text&gt; &lt; <br>
+          &lt;Text style={heading}&gt;See Your Changes&lt;/Text&gt; <br>
+          &lt;Text&gt; <br>
+         Press Cmd + R inside the simulator to reload <br>
+         your app&amp;#8217;s code. <br>
+          &lt;/Text&gt; <br>
+          &lt;Text style={heading}&gt;Debug&lt;/Text&gt; <br>
+          &lt;Text&gt; Press Cmd + M or Shake your device to open the <br>
+           React Native Debug Menu. <br>
+           &lt;/Text&gt; <br>
+           &lt;Text style={heading}&gt;Learn&lt;/Text&gt; <br>
+           &lt;Text&gt; <br>
+        Read the docs to discover what to do next: <br>
+        &lt;/Text&gt; &lt;/View&gt; ); 
+      </code>
+
+        <!-- <code>
+        @import React from 'react';<br>
+        @import {Text, View} from 'react-native';<br>
+        @import {Header} from './Header';<br>
+        @import {heading} from './Typography';<b
+const WelcomeScreen = () => ( <br>
+<View><br>
+<Header title="Welcome to React Native"/> <br>
+<Text style={heading}>Step One</Text> <br>
+<Text> <br>
+  Edit App.js to change this screen and turn it
+  into your app. <br>
+</Text> <br>
+<Text style={heading}>See Your Changes</Text> <br>
+<Text> <br>
+  Press Cmd + R inside the simulator to reload<br>
+  your app’s code.<br>
+</Text> <br>
+<Text style={heading}>Debug</Text> <br>
+<Text> <br>
+  Press Cmd + M or Shake your device to open the <br>
+  React Native Debug Menu. <br>
+</Text> <br>
+<Text style={heading}>Learn</Text> <br>
+<Text> <br>
+  Read the docs to discover what to do next: <br>
+</Text> <br>
+</View> <br>
+);
+
+</code> -->
+      </div>
+
+
+
+
+
+
+    </section>
+
+
+    <section class="give-it-a-try"></section>
+    <footer>Copyright © 2021 Pain, Inc.</footer>
+  </main>
+</body>
+
 </html>
