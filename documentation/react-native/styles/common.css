@@ -221,12 +221,15 @@ footer {
     display: flex;
     flex-direction: row;
     box-sizing: border-box;
+    height: 400px;
+    line-height: 30px;
 }
 .native-development-article
 {
     flex:1;
     background-color: rgba(255,255,255, 0.8);
-    padding: 50px 20px 50px 80px;
+    padding: 50px 30px 50px 100px;
+   
     
 }
 .native-development-article h3
@@ -234,10 +237,21 @@ footer {
     font-size: 25px;
     line-height: 1.2;
     font-weight: 700;
+    
 }
 .native-development-code
 {
     overflow-y: auto;
     flex:1;
-    padding: 50px 80px 50px 20px;
+    padding: 50px 100px 50px 30px;
+    color: white;
+    
+}
+code
+{
+    font-family: monospace;
+}
+strong
+{
+    font-weight: 700;
 }
