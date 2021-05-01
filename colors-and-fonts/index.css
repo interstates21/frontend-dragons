@@ -43,6 +43,7 @@ a {
     background-color: none;
     text-decoration: none;
     color: inherit;
+    margin-left: 50px;
 }
 
 section {
@@ -65,6 +66,9 @@ ul {
     list-style-type: none;
     margin: 5px;
     padding: 25px;
+    display: flex;
+    font-family: sans-serif;
+    font-size: 1rem;
   }
 
   ul :hover{
