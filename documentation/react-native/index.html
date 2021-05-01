@@ -45,14 +45,71 @@
         </div>
       </section>
       <section class="create-native-apps"></section>
-      <section class="native-development"></section>
+
+
+
+
+
+      <section class="native-development">
+        <div class="native-development-article">
+          <h3>Written in JavaScript—rendered with native code</h3>
+          <p>React primitives render to native platform UI, 
+            meaning your app uses the same native platform APIs other apps do.</p>
+            <br>
+            <p>
+            <strong> Many platforms </strong>, one React. Create platform-specific versions of components 
+            so a single codebase can share code across platforms. 
+            With React Native, one team can maintain two platforms 
+            and share a common technology—React.</p>
+        </div>
+        <div class="native-development-code">
+          <code>
+            @import React from 'react';<br>
+            @import {Text, View} from 'react-native';<br>
+            @import {Header} from './Header';<br>
+            @import {heading} from './Typography';<br>
+
+const WelcomeScreen = () => ( <br>
+  <View><br>
+    <Header title="Welcome to React Native"/> <br>
+    <Text style={heading}>Step One</Text> <br>
+    <Text> <br>
+      Edit App.js to change this screen and turn it
+      into your app. <br>
+    </Text> <br>
+    <Text style={heading}>See Your Changes</Text> <br>
+    <Text> <br>
+      Press Cmd + R inside the simulator to reload<br>
+      your app’s code.<br>
+    </Text> <br>
+    <Text style={heading}>Debug</Text> <br>
+    <Text> <br>
+      Press Cmd + M or Shake your device to open the <br>
+      React Native Debug Menu. <br>
+    </Text> <br>
+    <Text style={heading}>Learn</Text> <br>
+    <Text> <br>
+      Read the docs to discover what to do next: <br>
+    </Text> <br>
+   </View> <br>
+);
+  
+  </code>
+        </div>
+
+
+
+
+
+
+      </section>
       <section class="seamless-cross"></section>
       <section class="fast-refresh"></section>
       <section class="facebook-supported"></section>
       <section class="give-it-a-try"></section>
       <footer>Copyright © 2021 Pain, Inc.</footer>
     </main>
-    <script>
+    <!-- <script>
       function getRandomInt(max) {
         return Math.floor(Math.random() * max);
       }
@@ -71,6 +128,6 @@
       }, 1000);
 
     }, 5000)
-    </script>
+    </script> -->
   </body>
 </html>
