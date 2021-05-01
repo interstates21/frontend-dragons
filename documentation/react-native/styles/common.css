@@ -199,7 +199,47 @@ nav {
     /* Almost black */
     width: 60px;
 }
-
+/* section */
+.create-native-apps{
+    background-color: #f7f7f7;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+}
+.phone-img-wrapper{
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    flex:1;
+}
+.phone-img{
+    align-self: flex-end;
+    height: 90%;
+}
+.right-wrapper{
+    flex:1;
+    align-self: center;
+    background-color: violet;
+}
+.apps-text{
+    width: 60%;
+    margin: auto;
+}
+.apps-text h5{
+    font-size: 25px;
+    font-weight: 500;
+    color: #303846;
+    padding-bottom: 20px;
+}
+.apps-text p{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+}
+.apps-text span{
+    font-weight: 500;
+}
 
 /* footer */
 
