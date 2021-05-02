@@ -1,0 +1,87 @@
+@import url(‘https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600;700&display=swap’);
+
+:root {
+    --pink: #F2486F;
+
+  }
+/* Remove default style for elements  */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+input, button, submit { border:none; background: none; } 
+
+a {
+    background-color: none;
+    text-decoration: none;
+    color: inherit;
+}
+body
+{
+    display: flex;
+    height: 100vh;
+    
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+.side-bar
+{
+    /* background-color: thistle; */
+    flex: 1;
+    height: 100%;
+    padding: 30px 20px 0px 30px;
+    
+}
+.side-bar h1{
+    color: var(--pink);
+    font-size: 48px;
+    font-weight: 200;
+
+}
+.page-container
+{
+    /* background-color: violet; */
+    flex: 4;
+    height: 100%;
+}
+#search
+{
+    /* background-color: wheat; */
+    width: 100%;
+    height: 30px;
+    border-radius: 7px;
+    border: solid 0.5px rgb(218, 218, 218);
+    padding: 2px 10px;
+    box-sizing: border-box;
+    margin: 15px 0;
+}
+.side-bar-navigation
+{
+    display: flex;
+    flex-direction: column;
+ 
+
+}
+.side-bar-navigation div 
+{
+    margin: 5px 0;
+    opacity: 0.6;
+    cursor: pointer;
+    
+}
+.side-bar-navigation div:hover
+{
+    opacity: 1;
+}
+.getting-started h3
+{
+    margin: 30px 10px 5px 10px;
+}
+.page-container h2 
+{
+    color: var(--pink);
+    margin: 30px 10px ;
+    font-size: 35px;
+    font-weight: 200;
+    /* text-transform: uppercase; */
+}
