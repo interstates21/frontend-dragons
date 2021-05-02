@@ -1,0 +1,54 @@
+
+@font-face {
+    font-family:zenDots;
+    src: url(./myfonts/zenDots-Regular.ttf);
+    font-weight: 500;}
+@font-face {
+    font-family:DancingScript;
+    src: url(./myfonts/DancingScript-VariableFont_wght.ttf);
+    font-weight: 500;}
+@font-face {
+    font-family:jose;
+    src: url(./myfonts/zenDots-Regular.ttf);
+    font-weight: 500;}
+    @font-face {
+        font-family:ArchitectsDaughter;
+        src: url(./myfonts/ArchitectsDaughter-Regular.ttf);
+        font-weight: 500;}
+    body{
+        background-color: antiquewhite;
+    }
+header{
+    font-family:zenDots;
+    
+    text-align: center;
+    color:black;
+    padding-top: 50px;
+}
+
+
+.container{
+    margin-top: 50px;
+    margin-left: 24%;
+    margin-right: 24%;
+    background-color: white;
+    height:100%;
+    line-height: 1.5em;
+   padding-left: 15px;
+   padding-top: 15px;
+   font-weight: 24px;
+}
+p{
+    font-family:DancingScript;
+    font-size:20px;
+    
+}
+
+.highlight {
+    background-color: yellow;
+    padding: 2px;
+    border-radius: 1px;
+    font-style: italic;
+    font-weight: bold;
+    font-family:ArchitectsDaughter;
+}
