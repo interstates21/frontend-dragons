@@ -39,11 +39,14 @@
 
 input, button, submit { border:none; background: none; } 
 
+
+
 a {
     background-color: none;
     text-decoration: none;
     color: inherit;
     margin-left: 50px;
+    
 }
 
 section {
@@ -52,6 +55,10 @@ section {
 
 h2 {
     margin-bottom: 14px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
 }
 
 body {
@@ -112,7 +119,7 @@ header {
     box-shadow: 0 6px 8px rgba(0,0,0, 0.05);
 
     font-family: FrackleFace;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .container {
