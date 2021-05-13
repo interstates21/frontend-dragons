@@ -1,0 +1,91 @@
+.give-container
+{
+    width:100%;
+    height:400px; 
+padding-top: 63px;
+background-color:  #303846;;
+top:0;}
+
+
+.bottom
+ {
+             display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 50px;
+    margin-left: -235px;
+}
+.bottom li{
+    color:white;
+}
+.bottom i{
+    color:grey;
+    font-size: x-small;
+}
+    
+
+.give-container h1{
+    color: #62DAFB;
+    font-weight: 600;
+}
+.arrow-text{
+    display:flex;
+    margin-top: 9px;
+}
+.give{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  
+   
+}
+.arrow-text h4{
+    color:white;
+    margin-left: 7px;
+
+}
+.button-text{
+    display:flex;
+    margin-top: 20px;
+    text-decoration: none;
+    
+}
+.button-text i{
+    margin-left: 10px;
+font-size: small;}
+
+
+.box-button{
+    margin-top: 27px;
+    margin-bottom: 35px;
+    border: 2px solid white;
+    border-width: 1px 1px 0px 1px;
+    border-radius: 10px 10px 0px 0px;
+    padding-left: 22px;
+    padding-top: 10px;
+    padding-right: 343px;
+    
+   
+}
+
+
+.button{
+    height: 52px;
+    width: 154px;
+    background-color: #62DAFB;
+    color: black;
+    padding: 15px;
+}
+.learn{
+    display:flex;
+    
+    margin-left:16px;
+    width:180px;
+    
+    align-items: center;
+
+}
+.learn i{
+    color:#62DAFB;
+}
